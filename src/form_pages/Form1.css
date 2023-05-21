@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+.btn-primary{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #3d8df5;
+  --bs-btn-border-color: #3d8df5;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3d8df5;
+  --bs-btn-hover-border-color: #3d8df5;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #3d8df5;
+  --bs-btn-active-border-color: #3d8df5;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #3d8df5;
+  --bs-btn-disabled-border-color: #3d8df5;
+}
+
+
+
+
+
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  /* background-color:rgb(78 73 77 / 88%); */
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 80vw;
+  /* height: 590px; */
+  /* height: min-content; */
+  min-height: 560px;
+  height: max-content;
+  border-radius: 12px;
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important; */
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px 0px, rgba(17, 17, 26, 0.05) 0px 8px 32px 0px !important;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 45px;
+}
+
+
+
+.body-div {
+  height: 25rem;
+  overflow: auto;
+}
+
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-select:focus {
+  box-shadow: none;
+}
+
+.btn-size {
+  width: 6rem
+}
+
+.pointer_cursor {
+  cursor: pointer;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.textarea-height {
+  height: 7rem;
+}
+
+.client-border {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.error-message {
+  font-size: 10px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+/* Form 2 CSS */
+.add__btn {
+  margin-left: 15px;
+}
+
+.stu___name {
+  font-weight: 600;
+  color: #5A607F;
+}
+
+.cancel {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.over__div {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 300px;
+  min-height: 300px;
+  --bs-bg-opacity: 0;
+}
+
+#style-1::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 9px;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #c5c8cd;
+}
+
+#style-2::-webkit-scrollbar {
+  display: none;
+}
+
+/* Form 3 css */
+
+.option__box {
+  border: 3px solid #ced4da;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 55px;
+  padding-left: 55px;
+  font-size: 60px;
+  border-radius: 10px;
+  margin: 20px;
+  opacity: 0.4;
+}
+
+.box__div {
+  cursor: pointer;
+}
+
+
+.option__box:focus {
+  border: 3px solid #3d8df5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 55px;
+  padding-left: 55px;
+  font-size: 60px;
+  border-radius: 10px;
+  margin: 20px;
+  opacity: 1;
+  color: #5A607F;
+}
+
+.title__box {
+  opacity: 0.4;
+}
+
+.title__box:focus {
+  opacity: 1;
+}
+
+.btn__row {
+  padding-top: 200px;
+}
+
+/* Form 4 css */
+.manage__box {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  min-height: 71px;
+  height: max-content;
+  padding: 8px;
+}
+
+.head_h {
+  color: rgb(70, 60, 60);
+}
+
+.head_p {
+  color: #5A607F;
+}
+
+.icons__inner {
+  font-size: 35px;
+  color: #5A607F;
+}
+
+.test_h {
+  color: rgb(70, 60, 60);
+  font-size: 14px;
+}
+
+.text_p {
+  font-size: 12px;
+  color: #5A607F;
+}
+
+.manage__box:focus {
+  border: 2px solid #3d8df5;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  .modalContainer {
+    width: 500px;
+    /* height: 590px; */
+    min-height: 560px;
+    height: max-content;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 45px;
+  }
+}
+
+.step__circle {
+  background-color: #edeef2;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
